@@ -18,7 +18,7 @@ function App() {
   const[ gameState , setGameState ] = useState([]);
   const[players , setPlayers] = useState({
     'X' : 'Player 1',
-    'Y' : 'Player 2'
+    'O' : 'Player 2'
   });
 
   function savePlayerNameFunc(playerSym , playerN)
